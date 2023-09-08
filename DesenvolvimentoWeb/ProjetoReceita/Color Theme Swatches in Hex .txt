@@ -1,0 +1,7 @@
+/* Color Theme Swatches in Hex */
+.Ice-cream-scoop-on-waffle-cone-on-transparent-background-cutout,-PNG-file.-Many-assorted-different-flavour-Mockup-template-for-artwork-design.-1-hex { color: #F24957; }
+.Ice-cream-scoop-on-waffle-cone-on-transparent-background-cutout,-PNG-file.-Many-assorted-different-flavour-Mockup-template-for-artwork-design.-2-hex { color: #BCBF6B; }
+.Ice-cream-scoop-on-waffle-cone-on-transparent-background-cutout,-PNG-file.-Many-assorted-different-flavour-Mockup-template-for-artwork-design.-3-hex { color: #F5C660; }
+.Ice-cream-scoop-on-waffle-cone-on-transparent-background-cutout,-PNG-file.-Many-assorted-different-flavour-Mockup-template-for-artwork-design.-4-hex { color: #8C4820; }
+.Ice-cream-scoop-on-waffle-cone-on-transparent-background-cutout,-PNG-file.-Many-assorted-different-flavour-Mockup-template-for-artwork-design.-5-hex { color: #F2F2F2; }
+
