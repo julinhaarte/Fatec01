@@ -1,4 +1,4 @@
-dia = int(input("Insira o número do dia:"))
+zEdia = int(input("Insira o número do dia:"))
 
 match dia:
     case 1:

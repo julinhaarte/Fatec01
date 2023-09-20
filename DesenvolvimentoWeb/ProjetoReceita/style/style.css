@@ -1,0 +1,32 @@
+img {
+    margin: 10px;
+}
+h3{
+ font-family: 'Dosis', sans-serif;
+    color: #f2f2f2;
+}
+h2{
+ font-family: 'Dosis', sans-serif;
+    color: #BCBF6B;
+}
+hr {
+    height: 2px;
+    background-color: #f24957;
+}
+body{
+    background-color: #f5ffe1;
+}
+
+table, tr, th, td{
+    padding-left: 15px;
+    border-collapse: collapse;
+    
+
+}
+body{
+    font-family: 'maven pro', sans-serif;
+    }
+
+header {
+    background-color: #f24957;
+}
