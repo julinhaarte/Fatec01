@@ -7,7 +7,7 @@ h3{
 }
 h2{
  font-family: 'Dosis', sans-serif;
-    color: #BCBF6B;
+    color: #bcbf6b;
 }
 hr {
     height: 2px;
@@ -30,3 +30,28 @@ body{
 header {
     background-color: #f24957;
 }
+
+footer {
+    background-color: #bcbf6b;
+}
+
+button {
+    background-color:  #f24957;
+    margin-left: 15px;
+    color: #f2f2f2;
+    border: solid 2px;
+    border-color: #b8303b;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+a {
+    color: #f2f2f2;
+    font-family: 'Dosis';
+    text-decoration: none;
+}
+
+
+.botao:hover {
+    background-color: #b8303b;}
