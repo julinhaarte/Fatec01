@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Cálculo</h2>
+    <label id="ln1">Número 1</label>
+    <input type="text" id="n1" name="vn1">
+    <input type="button" value="somar" onclick="somar()">
+
+    <script>
+
+        function somar()
+        {
+        let x= Number(document.getElementById('n1').value);
+        x= x.toFixed(2) + 190;
+        console.log("valor de x:" + x);
+
+        alert(x);
+        }
+    </script>
+    
+</body>
+</html>

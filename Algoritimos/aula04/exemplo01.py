@@ -1,0 +1,5 @@
+base = int(input("Entre com o valor da base: "))
+altura = int(input("Entre com o valor da altura: "))
+area = (base * altura)
+print("A área do quadrilátero é:", area)
+print("Base=", base, "Altura=", altura, "Aréa=", area)

@@ -1,0 +1,7 @@
+a = 0
+b = 2
+
+while a <= 2:
+    print(f"{a} <= {b}")
+    a = a+1
+    if a > 2:
