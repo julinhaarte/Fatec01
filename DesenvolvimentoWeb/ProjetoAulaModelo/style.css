@@ -1,0 +1,67 @@
+
+h2 {
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    color: deeppink;
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    position: relative;
+    display: inline;
+    background-color: #ffcfe4;
+    color: deeppink;
+    padding: 8px;
+    font-size: large;
+    border-radius: 7px;
+    border: solid #ffcfe4;
+}
+
+nav ul li:hover{
+    background-color: pink;
+    color: deeppink;
+    text-decoration: underline;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+section{
+    background-color: #ffcfe4;
+    border: solid 2px deeppink;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+video, audio, iframe {
+    display: block;
+    max-width: 80%;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+div {
+    justify-content: space-between;
+    display: inline;
+}
+
+body
+{
+    font-family: 'Signika Negative', sans-serif;
+    color: hotpink;
+    background-color: #ffeaf3;
+}
+
+footer
+{
+
+    color:deeppink
+}

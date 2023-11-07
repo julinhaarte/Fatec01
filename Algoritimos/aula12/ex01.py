@@ -1,4 +1,11 @@
-d = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
+qtd = 5
+def linha(qtd=20):
+    print(qtd, "dentro")
+    for _ in range(0, qtd):
+        print("-", end="-")
 
-for chave, valor in d.items():
-    print(f"Chave: {chave} e valor: {valor}")
+
+linha()
+print(qtd, "fora")
+print("**Uso de Funções**")
+linha(30)
