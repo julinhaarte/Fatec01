@@ -33,10 +33,10 @@
             <div class="col-md-6" id="lanches">
                 <label for="combos" class="form-label">Combos</label>
                 <select class="form-select" aria-label="Default select example">
-                    <option selected>Big Lanchinho</option>
-                    <option value="1">Quarteirão com Frango</option>
-                    <option value="2">Cheddar Duplo</option>
-                    <option value="3">Fantástico Bacon</option>
+                    <option value="20">Big Lanchinho</option>
+                    <option value="50">Quarteirão com Frango</option>
+                    <option value="30">Cheddar JulinhaMelt</option>
+                    <option value="30">Fantástico Bacon</option>
                   </select>
                 </div>
 
@@ -44,11 +44,11 @@
                 
                 <label class="form-check-label">Adicionais:</label>
             <br>
-                <input type="checkbox" name="bacon" value="300" class="form-check-input">
+                <input type="checkbox" value="2" class="form-check-input" name="adicionais">
                 <label class="form-check-label">Bacon</label><br>
-                <input type="checkbox" name="cheddar" value="150" class="form-check-input">
+                <input type="checkbox" value="2" class="form-check-input" name="adicionais">
                 <label class="form-check-label">Cheddar</label>
-                <input type="checkbox" name="picles" value="50" class="form-check-input">
+                <input type="checkbox" value="2" class="form-check-input" name="adicionais">
                 <label class="form-check-label">Picles</label>
 
             </div>
@@ -58,13 +58,13 @@
                     <legend class="col-form-label col-sm-2 pt-0">Entrega:</legend>
                     <div>
                       <div class="form-check">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                        <label class="form-check-label" for="gridRadios1">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="0" checked>
+                        <label class="form-check-label" for="gridRadios1" >
                          Balcão
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="10">
                         <label class="form-check-label" for="gridRadios2">
                           Entrega
                         </label>
@@ -75,7 +75,7 @@
 
         </div>
     <div id="botoes" class="row justify-content-md-center"> 
-        <div class="col-auto"><button type="button" class="btn btn-primary"><i class="ri-calculator-line"></i> Calcular</button> </div>
+        <div class="col-auto"><button type="button" onclick="Calcular()" class="btn btn-primary"><i class="ri-calculator-line"></i> Calcular</button> </div>
         <div class="col-auto"><button type="button" class="btn btn-primary"><i class="ri-clipboard-line"></i> Novo Pedido</button> </div>
         <div class="col-auto"><button type="button" class="btn btn-primary"><i class="ri-sticky-note-line"></i>  Recibo</button><div></div>
         </div>
@@ -85,7 +85,7 @@
 
     <label class="form-check-label"> Total a pagar: </label>
 
-    <input type="text" class="form-control" id="floatingInputDisabled" placeholder="" disabled>
+    <input type="text" class="form-control" id="floatingInputDisabled" placeholder="" >
 
         
       </div>
@@ -94,7 +94,7 @@
         <label class="form-check-label">Descrição do pedido:</label>
         
         <div class="form-floating mb-3">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" ></textarea>
             <label for="floatingTextarea2Disabled">Descrição</label>
           </div>
           
