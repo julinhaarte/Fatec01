@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Idade</title>
+    <script>
+        function calcularIdade() {
+            var anoNascimento = parseInt(prompt("Informe o ano de nascimento:"));
+            var dataAtual = new Date();
+            var anoAtual = dataAtual.getFullYear();
+            var mesAtual = dataAtual.getMonth() + 1;
+            var diaAtual = dataAtual.getDate();
+            var idadeAnos = anoAtual - anoNascimento;
+            var idadeMeses = (mesAtual < 7) ? (mesAtual + 12 - (anoNascimento % 100)) % 12 : (mesAtual - (anoNascimento % 100)) % 12;
+            var idadeDias = diaAtual - (anoNascimento % 10000);
+            var idadeHoras = idadeDias * 24;
+            var idadeMinutos = idadeHoras * 60;
+            var idadeSemanas = idadeDias / 7;
+            var idadeEm2050 = 2050 - anoNascimento;
+
+            console.log("Idade Aproximada:");
+            console.log("Anos: " + idadeAnos);
+            console.log("Meses: " + idadeMeses);
+            console.log("Dias: " + idadeDias);
+            console.log("Horas: " + idadeHoras);
+            console.log("Minutos: " + idadeMinutos);
+            console.log("Semanas: " + idadeSemanas);
+
+            console.log("\nIdade em 2050:");
+            console.log("Anos: " + idadeEm2050);
+        }
+    </script>
+</head>
+<body>
+    <h1>Calculadora de Idade</h1>
+    <button onclick="calcularIdade()">Calcular Idade</button>
+</body>
+</html>

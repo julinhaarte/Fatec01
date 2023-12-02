@@ -1,0 +1,23 @@
+<h1>Calculadora de Área de Triângulo</h1>
+
+    <label for="base">Base:</label>
+    <input type="text" id="base">
+    <br>
+    <label for="altura">Altura:</label>
+    <input type="text" id="altura">
+    <br>
+    <button onclick="calcularArea()">Calcular Área</button>
+    <hr>
+    <label for="resultado">Área:</label>
+    <input type="text" id="resultado" readonly>
+
+    <script>
+        function calcularArea() {
+            let base = Number(document.getElementById("base").value);
+            let altura = Number(document.getElementById("altura").value);
+
+            let area = (base * altura) / 2;
+
+            document.getElementById("resultado").value = ($area);
+       }
+</script>
